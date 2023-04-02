@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/enableCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Button"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/clickableCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clickable Button"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/enableCheckBox"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/rotationCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate Button"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/clickableCheckBox"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:enabled="false"
+            android:clickable="false"
+            android:rotation="0"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
